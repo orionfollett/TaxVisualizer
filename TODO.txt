@@ -1,0 +1,11 @@
+
+Design Ideas:
+1. multiplayer browser game
+2. reddit/forum clone
+3. both!
+
+Action Items:
+1. Create github repo
+2. Get website to actually be served from an EC2
+3. Create more pages and layouts
+4. start learning javascript
