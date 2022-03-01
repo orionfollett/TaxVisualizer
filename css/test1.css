@@ -5,20 +5,20 @@
     text-align: center;
     font-size:40px;
     font-weight:bold;
-    border: 3px solid green;
+    border: 3px;
     /*padding-left: 45%;*/
 }
 .input_sec {
     margin: auto;
     width: 60%;
-    border: 3px solid blue;
+    border: 3px;
     /*background-position: center;
     background-size: contain;*/
 }
 .chart_sec {
     margin: auto;
     width: 60%;
-    border: 3px solid green;
+    border: 3px;
     /*background-position: center;
     background-size: contain;*/
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<!-- home page  -->
+<head>
+    <title>Federal Income Tax Visualizer</title>
+    <link rel="stylesheet" href="./css/test1.css">
+	<script src="./js/handleinput.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class = "total">
+    <!-- Header Section -->
+	<header>
+		<div class="head1">Federal Income Tax Visualizer</div>
+	</header>
+
+	<!-- Body section -->
+	<section id="Content">		
+		<div class = "input_sec">
+			<!-- Input section -->
+			<h1>
+				<table>
+					<tr>
+						<td>Gross income:</td>
+						
+						<td><input type="text" id="income" name="income" oninput="incomeInputField('income','deductions', 'output')"></td>
+					</tr>
+					<tr>
+						<td>401k + TIRA Contributions:</td>
+						
+						<td><input type="text" id="deductions" name="deductions" oninput="incomeInputField('income','deductions', 'output')"></td>
+					</tr>
+				</table>
+				<div id = "output">Federal Tax Rate: </div>
+			</h1>
+		</div>
+
+		<div class = "chart_sec">
+			
+			<!-- Graph section -->
+			<div class="chart-container" style="position: relative; height:50%; width:50%">
+				<canvas id="taxChart" width=400 height=400></canvas>
+				<!--<script>taxRateGraph("taxChart")</script>-->
+			</div>
+			
+				
+		</div>
+	</section>
+</div>
+</body>
+</html>		
